@@ -96,7 +96,7 @@ body{
 }
 .container__summary{
     width: 100%;
-    height: 75vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -179,6 +179,10 @@ body{
     align-items: center;
     background-color: var(--darkGrayBlue);
     color: var(--white);
+}
+.button:hover{
+    background: linear-gradient(to bottom,var(--light-slateB),var(--light-royalB));
+    cursor: pointer;
 }
 .atribution{
     font-size: 11px; 
